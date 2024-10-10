@@ -1,0 +1,43 @@
+#flag {
+  height: auto;
+  width: 1.5rem;
+}
+
+.navbar {
+  height: 80px;
+
+  .wrapper {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    font-style: 18px;
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    font-style: 30px;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    .icons {
+      display: flex;
+      gap: 15px;
+      cursor: pointer;
+    }
+  }
+}
