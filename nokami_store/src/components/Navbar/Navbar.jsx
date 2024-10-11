@@ -51,7 +51,6 @@ export const Navbar = () => {
             <SearchIcon />
             <PersonIcon />
             <FavoriteIcon />
-            <ShoppingBagIcon />
             <div className="cartIcon">
               <ShoppingBagIcon />
               <span>0</span>
