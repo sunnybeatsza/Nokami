@@ -56,11 +56,9 @@ export const Categories = () => {
                 src="https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
               />
-              <button>
-                <Link to="/products/3" className="link">
-                  Men
-                </Link>
-              </button>
+              <Link to="/products/3" className="link">
+                <button>Men</button>
+              </Link>
             </div>
           </div>
           <div className="col">
@@ -71,7 +69,7 @@ export const Categories = () => {
                 alt=""
               />
               <button>
-                <Link to="/products/1" className="link">
+                <Link to="/products/4" className="link">
                   Accessories
                 </Link>
               </button>
@@ -85,7 +83,7 @@ export const Categories = () => {
             alt=""
           />
           <button>
-            <Link to="/products/1" className="link">
+            <Link to="/products/5" className="link">
               Shoes
             </Link>
           </button>
