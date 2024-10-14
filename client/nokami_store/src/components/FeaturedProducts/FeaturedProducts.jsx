@@ -1,39 +1,21 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import "./FeaturedProducts.scss";
 import Image1 from "../../Assets/Product_lemon.jpg";
 import Image2 from "../../Assets/Product_Leaves.jpg";
 import { Card } from "../Card/Card";
 
 export const FeaturedProducts = ({ type }) => {
-  const data = [
-    {
-      id: 1,
-      img: Image2,
-      img2: Image1,
-      title: "Oil 1",
-      isNew: true,
-      oldPrice: 19,
-      price: 12,
-    },
-    {
-      id: 2,
-      img: Image2,
-      img2: Image1,
-      title: "Oil 2",
-      isNew: false,
-      oldPrice: 19,
-      price: 12,
-    },
-    {
-      id: 3,
-      img: Image2,
-      img2: Image1,
-      title: "Oil 3",
-      isNew: true,
-      oldPrice: 19,
-      price: 12,
-    },
-  ];
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+      } catch (error) {
+        console.log(error);
+      }
+    };
+  });
 
   return (
     <div className="featuredProducts">
