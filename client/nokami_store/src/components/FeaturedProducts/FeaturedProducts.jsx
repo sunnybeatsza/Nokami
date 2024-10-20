@@ -10,7 +10,7 @@ export const FeaturedProducts = ({ type }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/products/`); // Adjust the URL as needed
+        const response = await fetch(`https://nokami.onrender.com/api/products/`); // Adjust the URL as needed
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
