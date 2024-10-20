@@ -12,6 +12,7 @@ export const Card = ({ item }) => {
           <img src={item.img2} alt="" className="secondImg" />
         </div>
         <h2>{item.title}</h2>
+        <div className="card-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, illum nostrum odio quisquam.</div>
         <div className="prices">
           <h3>R{item.oldPrice}</h3>
           <h3>R{item.price}</h3>

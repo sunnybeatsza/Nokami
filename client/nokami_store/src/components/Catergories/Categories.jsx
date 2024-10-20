@@ -22,7 +22,7 @@ export const Categories = () => {
           />
           <button>
             <Link className="link" to="/products/1">
-              Sale
+              Ingredients
             </Link>
           </button>
         </div>
@@ -34,7 +34,7 @@ export const Categories = () => {
           />
           <button>
             <Link to="/products/1" className="link">
-              Women
+              Oils
             </Link>
           </button>
         </div>
@@ -63,7 +63,7 @@ export const Categories = () => {
                 alt=""
               />
               <Link to="/products/3" className="link">
-                <button>Men</button>
+                <button>UPCOMING DROPS</button>
               </Link>
             </div>
           </div>
@@ -76,7 +76,7 @@ export const Categories = () => {
               />
               <button>
                 <Link to="/products/4" className="link">
-                  Accessories
+                  Benefits
                 </Link>
               </button>
             </div>
@@ -90,7 +90,7 @@ export const Categories = () => {
           />
           <button>
             <Link to="/products/5" className="link">
-              Shoes
+              Culture
             </Link>
           </button>
         </div>
