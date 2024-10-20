@@ -7,11 +7,17 @@ import "./Categories.scss";
 
 export const Categories = () => {
   return (
+    <>
+    <div className="categories-hero">
+      <h1>Blogs</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dolores tenetur perferendis, magni fuga illo! Consectetur dolores nostrum nulla molestiae nam similique est impedit eligendi excepturi cupiditate, sequi perspiciatis natus.</p>
+  </div>
     <div className="categories">
+    
       <div className="col">
         <div className="row">
           <img
-            src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://plus.unsplash.com/premium_photo-1715876268461-7d85ee7b1452?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <button>
@@ -23,7 +29,7 @@ export const Categories = () => {
         <div className="row">
           {" "}
           <img
-            src="https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.unsplash.com/photo-1536924430914-91f9e2041b83?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <button>
@@ -37,7 +43,7 @@ export const Categories = () => {
         <div className="row">
           {" "}
           <img
-            src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.unsplash.com/photo-1603234924544-526ab57f77d9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <button>
@@ -53,7 +59,7 @@ export const Categories = () => {
             <div className="row">
               {" "}
               <img
-                src="https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src="https://images.unsplash.com/photo-1643857571131-84a60d2f1f36?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               />
               <Link to="/products/3" className="link">
@@ -65,7 +71,7 @@ export const Categories = () => {
             <div className="row">
               {" "}
               <img
-                src="https://images.pexels.com/photos/2703202/pexels-photo-2703202.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src="https://plus.unsplash.com/premium_photo-1691801701768-48392f81a646?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
               />
               <button>
@@ -79,7 +85,7 @@ export const Categories = () => {
         <div className="row">
           {" "}
           <img
-            src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            src="https://images.unsplash.com/photo-1606416132922-22ab37c1231e?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
           />
           <button>
@@ -89,6 +95,7 @@ export const Categories = () => {
           </button>
         </div>
       </div>
-    </div>
+      </div>
+      </>
   );
 };

@@ -26,7 +26,7 @@ export const Navbar = () => {
           </div>
           <div className="item">
             <Link to="/products/1" className="link">
-              ESSENTIALS
+              PRODUCTS
             </Link>
           </div>
         </div>
