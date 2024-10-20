@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b02c852a.css",
+    "main.js": "/static/js/main.da1fdab0.js",
+    "static/media/Product_lemon.jpg": "/static/media/Product_lemon.d79502393d930994136d.jpg",
+    "static/media/Product_Leaves.jpg": "/static/media/Product_Leaves.9a36bcec774de0403119.jpg",
+    "static/media/payment.png": "/static/media/payment.c25c303da7570caf63c8.png",
+    "static/media/ZA.png": "/static/media/ZA.dc9cf140fda30c7f5b42.png",
+    "index.html": "/index.html",
+    "main.b02c852a.css.map": "/static/css/main.b02c852a.css.map",
+    "main.da1fdab0.js.map": "/static/js/main.da1fdab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b02c852a.css",
+    "static/js/main.da1fdab0.js"
+  ]
+}

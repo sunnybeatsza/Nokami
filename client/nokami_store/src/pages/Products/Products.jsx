@@ -16,18 +16,9 @@ export const Products = () => {
           <h2>Product Categories</h2>
           <div className="inputItem">
             <input type="checkbox" id="1" value={1} />
-            <label htmlFor="1">Shoes</label>
+            <label htmlFor="1">New Oils</label>
           </div>
 
-          <div className="inputItem">
-            <input type="checkbox" id="2" value={2} />
-            <label htmlFor="2">Jackets</label>
-          </div>
-
-          <div className="inputItem">
-            <input type="checkbox" id="3" value={3} />
-            <label htmlFor="3">Jerseys</label>
-          </div>
         </div>
         <div className="filterItem">
           <h2>Filter by price</h2>
@@ -69,7 +60,7 @@ export const Products = () => {
       <div className="right">
         <img
           className="catImg"
-          src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
+          src="https://images.unsplash.com/photo-1517840933437-c41356892b35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
         />
         <List catId={catId} maxPrice={maxPrice} sort={sort} />

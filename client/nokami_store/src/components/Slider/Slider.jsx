@@ -33,7 +33,7 @@ export const Slider = () => {
 
       <div className="slider-text">
         <h1>NOKAMI NATURALS</h1>
-        <p>Essential hair care</p>
+        <p>HAIR CARE THAT TRULY CARES</p>
       </div>
       <div className="icons">
         <div className="icon" onClick={previousSlide}>
