@@ -55,8 +55,10 @@ export const Navbar = () => {
             <PersonIcon />
             <FavoriteIcon />
             <div className="cartIcon" onClick={() => setOpen(!open)}>
-              <ShoppingBagIcon />
-              <span>0</span>
+              <Link to="/checkout">
+                <ShoppingBagIcon />
+                <span>0</span>
+              </Link>
             </div>
           </div>
         </div>
