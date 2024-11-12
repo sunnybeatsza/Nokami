@@ -10,6 +10,8 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer/Footer";
 import ScrollToTop from "./components/ScrollTop/ScrollTop"; // Import ScrollToTop
 import "./App.scss";
+import { Checkout } from "./pages/Checkout/Checkout";
+import { Confirmation } from "./components/Confirmation/Confirmation";
 
 const Layout = () => {
   return (
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
       {
         path: "/product/:id",
         element: <Product />,
+      },
+      {
+        path: "/checkout",
+        element: <Checkout />,
+      },
+      {
+        path: "/confirmation",
+        element: <Confirmation />,
       },
     ],
   },
