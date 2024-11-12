@@ -10,7 +10,7 @@ export const Checkout = () => {
     const formData = new FormData(e.target);
 
     try {
-      const response = await fetch("http://localhost:3000/checkout", {
+      const response = await fetch("https://nokami.onrender.com", {
         method: "POST",
         body: formData,
       });
